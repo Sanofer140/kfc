@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KFC — Finger Lickin' Good</title>
+  <link rel="stylesheet" href="kfc.css" />
+  <link rel="preconnect" href="https://en.wikipedia.org/wiki/KFC">
+  <link href="https://en.wikipedia.org/wiki/KFC" rel="stylesheet">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <!-- Replace with your logo image if available -->
+         <img src="kfc logo.png" alt="KFC">
+        <div class="logo-mark">
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#specials">Specials</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="btn btn-primary order-btn">Order Now</button>
+      <button class="mobile-nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1>Finger Lickin' Good — Delivered Fast</h1>
+          <p class="lead">Hot & crispy chicken, bold flavours and unbeatable combos. Order now for delivery or pickup.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">View Menu</a>
+            <a class="btn btn-ghost" href="#specials">Today's Specials</a>
+          </div>
+
+          <ul class="hero-features">
+            <li>🍗 Freshly fried</li>
+            <li>⏱️ Fast delivery</li>
+            <li>💳 Secure payment</li>
+          </ul>
+        </div>
+      
+      <div class="hero-right">
+        <h2>Our latest ads</h2>
+        <iframe width="360" height="210" src="KFC Epic Feast – Limited Time Offer 🍗🍗.mp4">
+      </div>
+    </iframe>
+    
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="section container">
+      <h2 class="section-title">Popular Menu</h2>
+      <p class="section-sub">Our best sellers — crispy chicken, sandwiches and bucket deals.</p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <img src="zinger burger.webp" alt="Zinger Burger" />
+          <div class="card-body">
+            <h3>Zinger Burger</h3>
+            <p>Spicy tender chicken fillet with crunchy lettuce and special sauce.</p>
+            <div class="card-footer">
+              <span class="price">₹199</span>
+              <button class="btn btn-sm">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="family bucket.webp" alt="Bucket" />
+          <div class="card-body">
+            <h3>Family Bucket</h3>
+            <p>8 pieces of our signature chicken — perfect for sharing.</p>
+            <div class="card-footer">
+              <span class="price">₹799</span>
+              <button class="btn btn-sm">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="fries and drinks.webp" alt="Fries & Drink" />
+          <div class="card-body">
+            <h3>Fries + Drink</h3>
+            <p>Golden fries with soft drink — classic combo.</p>
+            <div class="card-footer">
+              <span class="price">₹149</span>
+              <button class="btn btn-sm">Add</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SPECIALS -->
+    <section id="specials" class="section specials">
+      <div class="container specials-inner">
+        <div class="specials-card">
+          <h2>Today's Special</h2>
+          <p class="muted">Offers on their EPIC BUCKET OF THE DAY, with a full house popcorn chicken bucket at 50% off, and deals on Peri Peri chicken strips.
+            Limited time offer — save 25% on the Family Bucket</p><br>
+          <div class="specials-actions">
+            <a class="btn btn-primary" href="#contact">Grab Offer</a>
+            <a class="btn btn-ghost" href="#menu">See Menu</a>
+          </div>
+        </div>
+
+        <div class="specials-image">
+          <img src="special bucket.webp" alt="Special bucket" />
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="section container">
+      <h2 class="section-title">What customers say</h2>
+      <div class="reviews-grid">
+        <blockquote class="review">
+          <p>“Best chicken in town — crispy on the outside, juicy inside.”</p>
+          <footer>— Ananya</footer>
+        </blockquote>
+
+        <blockquote class="review">
+          <p>“Quick delivery and always hot. My go-to for movie nights.”</p>
+          <footer>— Rohit</footer>
+        </blockquote>
+
+        <blockquote class="review">
+          <p>“Amazing value on combo deals, love the spicy zinger.”</p>
+          <footer>— Priya</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Find a store or get in touch</h2>
+          <p class="muted">We take orders for delivery and pickup. Reach us on phone or drop a message.</p>
+
+          <ul class="contact-list">
+            <li>📍 123 Food Street, City</li>
+            <li>📞 <a href="tel:+9340895731">+91 9340895731</a></li>
+            <li>✉️ <a href="hellokfc@gmail.com">hellokfc@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="#" method="post" onsubmit="alert('Demo form — implement backend to send message'); return false;">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required />
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <button class="btn btn-ghost" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <marquee><div>© <span id="year"></span> KFC — All rights reserved.</div></marquee>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"></a>
+        <a href="#" aria-label="Instagram"></a>
+        <a href="#" aria-label="Twitter"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // small interactive bits
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const mobileToggle = document.querySelector('.mobile-nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    mobileToggle.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
